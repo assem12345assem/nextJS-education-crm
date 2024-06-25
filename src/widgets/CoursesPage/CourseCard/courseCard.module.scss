@@ -1,0 +1,36 @@
+// courseCard.module.scss
+.courseCard {
+  transition: box-shadow 0.3s ease-in-out;
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .ant-card-body {
+    padding: 16px;
+  }
+
+  h3 {
+    color: #333;
+    margin-bottom: 16px;
+  }
+
+  p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .galleryImage {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+}
+.innerContent {
+  min-height: 500px;
+  max-height: 800px;
+}
+.buttonZone {
+  display: flex;
+  justify-content: flex-end;
+}

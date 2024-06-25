@@ -1,0 +1,16 @@
+.cardImage {
+}
+
+.image {
+  object-fit: contain;
+}
+.wrapper {
+  :global {
+    .slick-dots li button {
+      background: rgb(102, 97, 97);
+    }
+    .slick-dots li.slick-active button {
+      background: #4096ff;
+    }
+  }
+}

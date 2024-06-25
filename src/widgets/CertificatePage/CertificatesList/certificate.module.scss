@@ -1,0 +1,62 @@
+.wrapper {
+  padding: 30px 100px;
+}
+.certificate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.certificate-content {
+  border: 3px solid #ffd700; /* golden ornamental borders */
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.certify-line,
+.completed-course {
+  margin-top: 10px;
+}
+
+.student-name {
+  font-size: 36px;
+  font-family: cursive;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.course-name {
+  margin-top: 10px;
+}
+
+.additional-info {
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left,
+.center,
+.right {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}

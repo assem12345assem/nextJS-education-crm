@@ -1,0 +1,50 @@
+/* pages/courses/CourseDetail.module.css */
+.wrapper {
+  padding: 30px 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.course {
+    background-color: #f3f4f6; /* Light grey background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-top: 20px;
+}
+
+.title {
+    color: #111827; /* Dark blue */
+    margin-bottom: 10px;
+}
+
+.description,
+.academicArea,
+.mentor,
+.syllabus {
+    color: #4b5563; /* Grey */
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
